@@ -42,7 +42,7 @@ func TestMinerCreateProveCommitAndMissPoStChallengeWindow(t *testing.T, factory 
 	minerWorker, minerWorkerID := td.NewAccountActor(address.BLS, abi_spec.NewTokenAmount(1_000_000_000))
 	// The address of the miner actor
 	minerActorID := utils.NewIDAddr(t, utils.IdFromAddress(minerWorkerID)+1)
-	createMinerRet := td.ComputeInitActorExecReturn(minerOwner, 0, 1, minerActorID)
+	createMinerRet := td.ComputeInitActorExecReturn(minerOwner, 0, 0, minerActorID)
 	// collaterall the miner will pledge
 	collateral := abi_spec.NewTokenAmount(1_000_000)
 
