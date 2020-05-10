@@ -9,7 +9,7 @@ import (
 	blake2b "github.com/minio/blake2b-simd"
 	"golang.org/x/xerrors"
 
-	bls "github.com/filecoin-project/filecoin-ffi"
+	bls "github.com/sbwtw/filecoin-ffi"
 )
 
 // KeyInfo is used for storing keys in KeyStore
