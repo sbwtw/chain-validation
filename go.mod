@@ -1,4 +1,4 @@
-module github.com/filecoin-project/chain-validation
+module github.com/sbwtw/chain-validation
 
 go 1.13
 
